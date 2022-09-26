@@ -1,8 +1,10 @@
 package br.edu.ifto.estudante.bernardcarvalhotrabalhofinalpw2.Controllers;
 
+import org.springframework.context.annotation.Configuration;
 import org.springframework.web.servlet.config.annotation.ViewControllerRegistry;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
+@Configuration
 public class ConfiguracaoSpringMVC implements WebMvcConfigurer{
 
     @Override
